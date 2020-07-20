@@ -1,1 +1,0 @@
-# businessminds.github.io
