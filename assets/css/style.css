@@ -912,6 +912,14 @@ section {
   position: relative;
 }
 
+.section-header h2 {
+  font-size: 42px;
+  color: #283d50;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+}
+
 .section-header p {
   text-align: center;
   margin: auto;
@@ -931,6 +939,13 @@ section {
 --------------------------------*/
 .section-bg {
   background: #ecf5ff;
+}
+
+.section-header-top{
+  padding: 120px 0;
+}
+.section-header-other {
+  padding: 60px 0;
 }
 
 /*--------------------------------------------------------------
@@ -997,7 +1012,7 @@ section {
 --------------------------------*/
 #about {
   background: #fff;
-  padding: 60px 0;
+  padding: 120px 0;
 }
 
 #about .about-container .background {
@@ -1550,7 +1565,8 @@ ul.timeline > li:before {
 /* Team Section
 --------------------------------*/
 #team {
-  padding: 60px 0;
+/*  padding: 60px 0;*/
+
 }
 
 #team .member {
@@ -1591,6 +1607,13 @@ ul.timeline > li:before {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
+  color: #fff;
+}
+
+#team .member h5 {
+  font-weight: 700;
+  margin-bottom: 0px;
+  font-size: 13px;
   color: #fff;
 }
 
